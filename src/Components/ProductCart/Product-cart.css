@@ -1,0 +1,66 @@
+.product-cart {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+}
+.product-cart .card-on-hover {
+  top: 0px;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-cart .card-on-hover .background {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #d9dfff;
+  border-radius: 20px;
+}
+.product-cart .card-on-hover .buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+}
+.product-cart .card-on-hover .buttons button {
+  background-color: #818eca !important;
+  border: none;
+  color: white;
+  width: 100%;
+}
+.product-cart:hover .card-on-hover {
+  opacity: 1;
+}
+.product-cart:hover .card-on-hover .background {
+  opacity: 0.75;
+}
+.product-cart .custom-container {
+  width: 200px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 50px 10px;
+  border-radius: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 3px 2px 0px #818eca;
+}
+.product-cart .custom-container img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.product-cart .card-on-hover {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition-duration: 0.2s;
+  position: absolute;
+}/*# sourceMappingURL=Product-cart.css.map */

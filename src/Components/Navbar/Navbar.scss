@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Cairo:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "cairo", sans-serif;
+}
+
+body {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.custom-navbar {
+  padding: 10px 5px;
+  display: flex;
+  flex-direction: column;
+  font-family: "cairo";
+  justify-content: space-between;
+  background-color: #f7d4b6;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition-duration: 0.2s;
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  section {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    &:nth-of-type(1) {
+      background-color: #f7d4b6;
+      * {
+        margin: 0px;
+        font-size: 16px;
+        li span {
+          font-size: 14px;
+          color: black;
+        }
+      }
+    }
+    .logo p {
+      font-family: "pacifico";
+    }
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .search-input {
+    width: 400px;
+    height: 30px;
+    border-radius: 30px;
+  }
+}

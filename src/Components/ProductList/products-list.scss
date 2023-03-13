@@ -1,0 +1,22 @@
+.products-sidebar{
+  padding-top: 50px;
+  .products-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    gap: 90px 30px;
+    align-items: center;
+  }
+}
+
+
+.img-products {
+  .image {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 75%;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #d9dfff;
+}
+
+.spinner {
+  display: inherit !important;
+    position: relative !important;
+    width: 100% !important;
+    height: 50px !important;
+    transform: rotate(0) translateY(100px) !important;
+}
